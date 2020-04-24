@@ -20,4 +20,5 @@ from django.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('path01/', include('app_samo01.urls')),
+    path('crud/', include('crud.urls')),
 ]
